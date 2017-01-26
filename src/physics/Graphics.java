@@ -20,14 +20,14 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 
 	public Graphics() {
 		frame = new BetterFrame("Frame", new Dimension(width, height));
-		doImportantThings();
+		initializeCommonVariables();
 	}
 
 	public Graphics(String title) {
 		frame = new BetterFrame(title, new Dimension(width, height));
-		doImportantThings();
+		initializeCommonVariables();
 	}
-	private void doImportantThings() {
+	private void initializeCommonVariables() {
 		running = true;
 		done = false;
 		GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
