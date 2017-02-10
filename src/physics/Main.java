@@ -1,7 +1,7 @@
 package physics;
 
 /**
- * Created by mario on 1/25/2017.
+ * @author onContentStop
  */
 public class Main {
 	public static MainWindow mainWindow;
